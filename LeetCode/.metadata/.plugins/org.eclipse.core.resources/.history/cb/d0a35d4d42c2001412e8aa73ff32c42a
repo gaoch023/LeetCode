@@ -1,0 +1,13 @@
+package String;
+
+public class SubStr {
+
+	public static boolean subStr(String s,String str){
+		boolean isOk=false;
+		for (int i = 0; i < str.length(); i++) {
+			
+		}
+		return false;
+		
+	}
+}

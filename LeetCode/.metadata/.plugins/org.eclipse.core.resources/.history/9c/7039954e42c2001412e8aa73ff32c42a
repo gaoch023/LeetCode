@@ -1,0 +1,17 @@
+package String;
+
+public class SubStr {
+
+	public static boolean subStr(String s,String str){
+		boolean isOk=true;
+		for (int i = 0; i < str.length(); i++) {
+			if(str.substring(i, i+s.length()).equals(s)){
+				return isOk;
+			}else{
+				i++
+			}
+		}
+		return false;
+		
+	}
+}

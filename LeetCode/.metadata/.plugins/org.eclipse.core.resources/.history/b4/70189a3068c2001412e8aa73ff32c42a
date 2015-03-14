@@ -1,0 +1,22 @@
+package String;
+
+public class SubStr {
+
+	public static void main(String[] args) {
+		subStr("ab", "ashdikwefvlabdshf");
+	}
+	
+	public static boolean subStr(String s,String str){
+		boolean isOk=true;
+		for (int i = 0; i < str.length(); i++) {
+			if(str.substring(i, i+s.length()).equals(s)){
+				return isOk;
+			}else{
+				isOk=false;
+				i++;
+			}
+		}
+		return isOk;
+		
+	}
+}
