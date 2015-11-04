@@ -1,0 +1,20 @@
+@relation     income
+@attribute age {youth, middle_aged, senior}
+@attribute income	{high, medium,low}
+@attribute astigmatism		{no, yes}
+@data
+
+youth,high,no
+youth,high,no
+middle_aged,high,yes
+senior,medium,yes
+senior,low,yes
+senior,low,no
+middle_aged,low,yes
+youth,medium,no
+youth,low,yes
+senior,medium,yes
+youth,medium,yes
+middle_aged,medium,yes
+middle_aged,high,yes
+senior,medium,no

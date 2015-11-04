@@ -1,0 +1,2 @@
+package weka.gui.explorer.Explorer.java;
+1.The main class for the Weka explorer. Lets the user create,open, save, configure, datasets, and perform ML analysis.

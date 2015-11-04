@@ -1,0 +1,7 @@
+weka/classifier/classifier
+This gives a uniform interface for building and using classifiers from other Java code.
+It contains three methods:buildClassifier() and classifyInstance() and distributionForInstance(), which all of these learning algorithms have to implement.
+The learning algorithms are represented by subclasses of Classifier.
+buildClassifier():Generates a classifier
+classifyInstance():Classifies the given test instance
+distributionForInstance():Returns a probability distribution for a given instance.(Calculates the class memberships probabilities for a given instance.)

@@ -1,0 +1,4 @@
+weka.classifiers.trees
+1.Class for building and using a decision stump.
+2.DecisionStump implements all methods required by a Classifier.
+3.it contains   toString() and main() methods.(The latter is called every time you ask for a decision stump from the command line.)
